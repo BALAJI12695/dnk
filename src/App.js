@@ -12,15 +12,9 @@ import { About } from './Components/Pages/About';
 import { Contact } from './Components/Pages/Contact';
 import { WishList } from './Components/Pages/WishList';
 import { Section2 } from './Components/Section2/Section2';
-import Cat from './Components/Section2/Cat';
-import Car from './Components/Section2/Carousal/Car';
-import Card from './Components/Section2/Card';
-
-
-
-
-
-
+import Cat from './Components/Section2/Card2/Cat';
+import Car from './Components/Section2/Card3/Car';
+import { Cards } from './Components/Section2/Card1/Cards';
 
 function App() {
   return (
@@ -29,10 +23,9 @@ function App() {
   <Router>
     {/* <Navbar /> */}
     <Section1 />
-    {/* <Car /> */}
-    {/* <Section2 /> */}
-    {/* <Cat /> */}
-    {/* <Card /> */}
+    < Cat />
+    {/* < Car /> */}
+    {/* < Cards /> */}
     <Routes>
     <Route path='/' element={<Shop />} />
     <Route path='/men' element={<ShopCategory Category="men" />} />

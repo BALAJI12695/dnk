@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import "../Section2/Style.css";
-import Card  from '../Section2/Card'
-import logoipsum1 from '../../Assets/logoipsum1.png'
-import logoipsum2 from '../../Assets/logoipsum2.png'
-import logoipsum3 from '../../Assets/logoipsum3.png'
-import logoipsum4 from '../../Assets/logoipsum4.png'
+import "../Card2/Style.css"
+import Card  from '../Card2/Card'
+import logoipsum1 from '../.../../../../Assets/logoipsum1.png'
+import logoipsum2 from '../.../../../../Assets/logoipsum2.png'
+import logoipsum3 from '../.../../../../Assets/logoipsum3.png'
+import logoipsum4 from '../.../../../../Assets/logoipsum4.png'
 
 
 export default function Cat(){
