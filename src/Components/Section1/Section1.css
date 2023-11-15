@@ -1,0 +1,132 @@
+
+/* Section 1 Navbar Starts  */
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    /* background-color: #156c96; */
+    /* background: hsl(188, 100%, 37%); */
+    background: hsl(188, 100%, 37%, .3);   
+}
+.navbar img{
+    width: 147px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a :hover{
+    color: black;
+}
+
+.nav-left{
+    margin-left: 30px;
+    /* padding-top: 15px; */
+    
+}
+.nav-right{
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+.nav-left ul,.nav-right ul{
+    list-style-type: none;
+    display: inline-flex;
+    color: white;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+}
+.nav-left li,.nav-right li{
+    padding: 10px;
+    
+}
+
+.nav-cart-count{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+    margin-left: -18px;
+    border-radius : 25px;
+    font-size: 10px;
+    background-color: #ffffff;
+    color: black;
+}
+
+/* Section 1 Navbar Ends */
+
+/* Section 2 Main Page Starts */
+
+.home-img{
+    width: 100%;
+    height: 685px;
+    background-color: black;
+    background-image: url(../../Assets/girl-img-home.avif);
+    background-size: 125%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Banner Starts  */
+
+.banner{
+    width: 650px;
+    height: 350px;
+    /* background-color: hsl(188, 100%, 37%, .3); */
+    opacity: 1px;
+    margin: 100px;
+    font-family:'Lato', sans-serif; ;
+    padding: 25px;
+    color: #ffffff;
+}
+.banner h1{
+    font-size: 56px;
+}
+.banner p{
+    font-size: 25px;
+    padding: 25px 0px 25px ;
+}
+
+/* Banner Ends */
+
+/* Buttons  Starts*/
+
+.button1{
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 0px;
+    background-color: #ffffff;
+    color: black;
+    border: 1.4px solid #ffffff;
+    width: 125px;
+    height: 45px;
+}
+.button1:hover 
+{
+    background-color: black;
+    color: #ffffff;
+    border-color: black;
+}
+
+.button2 {
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 25px;
+    background-color: hsl(188, 100%, 37%, .3);
+    color: #ffffff;
+    border: 1.4px solid #ffffff;
+    width: 125px;
+    height: 45px;
+}
+.button2:hover{
+    background: black;
+    border-color:hsl(188, 100%, 37%, .3) ;
+}
+/* Buttons  Ends*/
+/* Section 2 Main Page Ends */

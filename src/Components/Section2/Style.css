@@ -1,0 +1,18 @@
+
+.card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    /* background-color: #333; */
+    /* background-image: url(../../Assets/logoipsum3.png); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 1px;
+    border-style: none;
+    
+}
