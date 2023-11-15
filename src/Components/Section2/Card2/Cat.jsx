@@ -17,7 +17,7 @@ const breakPoints = [
 ];
   return (
     <>
-    <div className="space" style={{width:"100%", height:"100px"}} ></div>
+    <div className="space" style={{width:"100%", height:"50px"}} ></div>
       <div className="App">
         <Carousel breakPoints={breakPoints}>
           <Card> <img style={{height:"160%", width:"100%"}} src={logoipsum1} alt="logo"  /> </Card>

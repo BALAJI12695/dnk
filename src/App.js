@@ -16,6 +16,7 @@ import Cat from './Components/Section2/Card2/Cat';
 import Car from './Components/Section2/Card3/Car';
 import { Cards } from './Components/Section2/Card1/Cards';
 
+
 function App() {
   return (
     
@@ -25,7 +26,9 @@ function App() {
     <Section1 />
     < Cat />
     {/* < Car /> */}
-    {/* < Cards /> */}
+   
+    < Cards />
+    
     <Routes>
     <Route path='/' element={<Shop />} />
     <Route path='/men' element={<ShopCategory Category="men" />} />
