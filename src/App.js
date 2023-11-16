@@ -15,8 +15,10 @@ import { Section2 } from './Components/Section2/Section2';
 import Cat from './Components/Section2/Card2/Cat';
 import Car from './Components/Section2/Card3/Car';
 import { Cards } from './Components/Section2/Card1/Cards';
-import Caroline from './Components/Section2/Caroline';
-import PartnersSlider from './Components/Section2/Caroline';
+import Caroline from './Components/Section2/Carousal/Caroline';
+import PartnersSlider from './Components/Section2/Carousal/Caroline';
+import Kerosal from './Components/Section2/Kerosal/Kerosal';
+
 
 
 function App() {
@@ -25,13 +27,13 @@ function App() {
   <div className='App' >
   <Router>
     {/* <Navbar /> */}
-    <Section1 />
+    {/* <Section1 /> */}
     < Cat />
-    {/* < Car /> */}
+    < Car />
+    <Kerosal />
+    {/* < Cards /> */}
+    {/* <Caroline /> */}
    
-    < Cards />
-
-    <Caroline />
     
     <Routes>
     <Route path='/' element={<Shop />} />

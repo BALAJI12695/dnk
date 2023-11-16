@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../../Components/Section2/Carousal/Caroline.css'; // Make sure to import your stylesheet
+import '../Carousal/Caroline.css'; // Make sure to import your stylesheet
 
 
 const PartnersSlider = () => {
