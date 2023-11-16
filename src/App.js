@@ -15,6 +15,8 @@ import { Section2 } from './Components/Section2/Section2';
 import Cat from './Components/Section2/Card2/Cat';
 import Car from './Components/Section2/Card3/Car';
 import { Cards } from './Components/Section2/Card1/Cards';
+import Caroline from './Components/Section2/Caroline';
+import PartnersSlider from './Components/Section2/Caroline';
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
     {/* < Car /> */}
    
     < Cards />
+
+    <Caroline />
     
     <Routes>
     <Route path='/' element={<Shop />} />

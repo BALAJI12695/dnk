@@ -1,5 +1,5 @@
 import "../Card1/Cards.css"
-import womenfashion from '../../../Assets/women-fashion.jpg'
+
 
 
 import React from 'react'
@@ -9,22 +9,27 @@ export const Cards = () => {
     <div className="cards" >
       
       <div className="women"> 
-      <img src={womenfashion} alt="" />
-      <h4>20% Off On Tank Tops</h4> 
+      <div className="frame">
+      <h5>20% Off On Tank Tops</h5> 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
-      <button> Shop Now </button>
+      <button> SHOP NOW </button>
+      </div>
       </div>
 
       <div className="men">
-      <h4>20% Off On Tank Tops</h4> 
+      <div className="frame">
+      <h5>Latest Eyewear For You</h5> 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
-      <button> Shop Now </button>
+      <button> SHOP NOW </button>
+      </div>
       </div>
       
       <div className="heels">
-      <h4>20% Off On Tank Tops</h4> 
+      <div className="frame">
+      <h5>Let's Lorem Suit Up!</h5> 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
-      <button> Shop Now </button>
+      <button> SHOP NOW </button>
+      </div>
       </div>
 
     </div>
