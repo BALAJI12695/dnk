@@ -18,6 +18,7 @@ import { Cards } from './Components/Section2/Card1/Cards';
 import Caroline from './Components/Section2/Carousal/Caroline';
 import PartnersSlider from './Components/Section2/Carousal/Caroline';
 import Kerosal from './Components/Section2/Kerosal/Kerosal';
+import Imagecarousel from './Components/Section2/ProductSlider/Imagecarousel';
 
 
 
@@ -27,11 +28,13 @@ function App() {
   <div className='App' >
   <Router>
     {/* <Navbar /> */}
-    {/* <Section1 /> */}
-    < Cat />
+    <Section1 />
+    {/* < Cat />
     < Car />
-    <Kerosal />
-    {/* < Cards /> */}
+    <Kerosal /> */}
+    <Imagecarousel />
+
+    < Cards />
     {/* <Caroline /> */}
    
     
