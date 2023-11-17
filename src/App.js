@@ -19,6 +19,7 @@ import Caroline from './Components/Section2/Carousal/Caroline';
 import PartnersSlider from './Components/Section2/Carousal/Caroline';
 import Kerosal from './Components/Section2/Kerosal/Kerosal';
 import Imagecarousel from './Components/Section2/ProductSlider/Imagecarousel';
+import { Button } from 'bootstrap';
 
 
 
@@ -27,15 +28,15 @@ function App() {
     
   <div className='App' >
   <Router>
-    {/* <Navbar /> */}
-    <Section1 />
+    <Navbar />
+    {/* <Section1 /> */}
     {/* < Cat />
     < Car />
     <Kerosal /> */}
-    <Imagecarousel />
-
-    < Cards />
+    {/* <Imagecarousel />
+    < Cards /> */}
     {/* <Caroline /> */}
+   
    
     
     <Routes>

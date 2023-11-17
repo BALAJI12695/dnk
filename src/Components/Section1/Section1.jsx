@@ -1,5 +1,5 @@
 import '../Section1/Section1.css'
-import brandlogo from '.././../Assets/Brand-logo.png'
+import brandlogo from '.././../Assets/Brand-logo-white.png'
 import * as Icon from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

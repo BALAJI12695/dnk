@@ -1,4 +1,3 @@
-import brandlogo from '.././../Assets/Brand-logo.png'
 import * as Icon from 'react-bootstrap-icons';
 import '../Navbar/Navbar.css'
 import { Link } from 'react-router-dom';
@@ -8,9 +7,9 @@ export const Navbar = () => {
     <div>
         <div className="navbar">
         <div className="nav-left">
-           <Link to='/'><a href="http://"> <img src={brandlogo} alt="Brand logo" /></a></Link>
             <span>
                 <ul >
+                <Link to='/'><a href="http://"> <div className='brandlogowhite'> </div></a></Link>
                 <Link to='/'><a href="http://"><li>EVERYTHING</li></a></Link>
                 <Link to='/women'><a href="http://"><li>WOMEN</li></a></Link>
                 <Link to='/men'><a href="http://"><li>MEN</li></a></Link>

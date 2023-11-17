@@ -2,15 +2,25 @@
 
 .navbar{
     width: 100%;
-    height: 80px;
+    height: 90px;
     /* background-color: #156c96; */
     /* background: hsl(188, 100%, 37%); */
     background: hsl(188, 100%, 37%, .3);   
 }
-.navbar img{
-    width: 147px;
+.brandlogowhite{
+    margin-right: 20px;
+    width: 120px;
     height: 40px;
+    background-image: url('../../Assets/Brand-logo-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
 }
+.brandlogoblack{
+    visibility: hidden;
+}
+
 a{
     text-decoration: none;
     color: #ffffff;
@@ -21,7 +31,7 @@ a :hover{
 }
 
 .nav-left{
-    margin-left: 30px;
+    margin-left: 8px;
     /* padding-top: 15px; */
     
 }
@@ -58,3 +68,24 @@ a :hover{
 }
 
 /* Section 1 Navbar Ends */
+
+@media screen and (max-width: 970px) {
+    .navbar {
+        background-color: #ffffff;
+    }
+
+  .nav-right,.nav-left li{
+        visibility: hidden;
+    }
+
+    .brandlogowhite{
+        margin-right: 20px;
+        width: 120px;
+        height: 40px;
+        background-image: url('../../Assets/Brand-logo-black.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+     
+    }
+   
+}
