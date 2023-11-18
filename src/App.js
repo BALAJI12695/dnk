@@ -21,6 +21,9 @@ import Kerosal from './Components/Section2/Kerosal/Kerosal';
 import Imagecarousel from './Components/Section2/ProductSlider/Imagecarousel';
 import { Button } from 'bootstrap';
 
+import { SegmentedNav } from 'react-bootstrap-icons';
+import { Nav } from './Components/Navbar/Nav';
+
 
 
 function App() {
@@ -28,7 +31,7 @@ function App() {
     
   <div className='App' >
   <Router>
-    <Navbar />
+    {/* <Navbar /> */}
     {/* <Section1 /> */}
     {/* < Cat />
     < Car />
@@ -36,7 +39,7 @@ function App() {
     {/* <Imagecarousel />
     < Cards /> */}
     {/* <Caroline /> */}
-   
+  <Nav />
    
     
     <Routes>
