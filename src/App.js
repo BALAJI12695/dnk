@@ -21,7 +21,9 @@ import Kerosal from './Components/Section2/Kerosal/Kerosal';
 import Imagecarousel from './Components/Section2/ProductSlider/Imagecarousel';
 import { Button } from 'bootstrap';
 import { Nav } from './Components/Navbar/Nav';
-import { Hamburgermenu } from '../src/Components/Hamburgermenu';
+import { Hamburgermenu } from './Components/Hamburgermenu';
+import { FeaturedProduct } from './Components/Section3/FeaturedProduct';
+import { Ham } from './Components/Ham';
 
 
 
@@ -33,7 +35,9 @@ function App() {
 
 
   <Router>
-  <Nav />
+    <Ham />
+  {/* <Hamburgermenu /> */}
+  {/* <Nav /> */}
     {/* <Navbar /> */}
     {/* <Section1 /> */}
     {/* < Cat />
@@ -42,7 +46,7 @@ function App() {
     {/* <Imagecarousel />
     < Cards /> */}
     {/* <Caroline /> */}
- {/* <Hamburgermenu /> */}
+ {/* <FeaturedProduct /> */}
     
   
    

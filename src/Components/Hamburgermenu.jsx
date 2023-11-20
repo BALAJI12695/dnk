@@ -4,32 +4,21 @@ import * as Icon from 'react-bootstrap-icons';
 import '../Components/Hamburgermenu.css'
 
 export const Hamburgermenu = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
-
-    const handleMenuToggle = () => {
-        setMenuOpen(!menuOpen);
-    };
-
-    return (
-        <div>
-            <div className={`navbar ${menuOpen ? 'active' : ''}`}>
-                <div className="hamburger-menu" onClick={handleMenuToggle}>
-                    <div className="bar"></div>
-                    <div className="bar"></div>
-                    <div className="bar"></div>
-                </div>
-                <div className="nav-left">
-             <Link to='/'><a href="http://"> <div className='brandlogo'> </div></a></Link>
-            <ul>
-              <Link to='/' onClick={() => setMenuOpen(false)}><li>EVERYTHING</li></Link>
-              <Link to='/women' onClick={() => setMenuOpen(false)}><li>WOMEN</li></Link>
-              <Link to='/men' onClick={() => setMenuOpen(false)}><li>MEN</li></Link>
-              <Link to='/accessories' onClick={() => setMenuOpen(false)}><li>ACCESSORIES</li></Link>
-            </ul>
-    
+  return (
+    <>
+        <div className="navbar">
+        <div className="nav-left">
+            <span>
+                <ul >
+                <Link to='/'><a href="http://"> <div className='brandlogo'> </div></a></Link>
+                <Link to='/'><a href="http://"><li>EVERYTHING</li></a></Link>
+                <Link to='/women'><a href="http://"><li>WOMEN</li></a></Link>
+                <Link to='/men'><a href="http://"><li>MEN</li></a></Link>
+                <Link to='/accessories'> <a href="http://"><li>ACCESSORIES</li></a></Link>
+                </ul>
+            </span>
         </div>
-                </div>
-                <div className="nav-right">
+        <div className="nav-right">
                 <ul >
               <Link to='/about' ><a href="http://"><li>ABOUT</li></a></Link> 
               <Link to='/contact' ><a href="http://"><li><p>CONTACT US</p></li></a></Link>
@@ -39,8 +28,8 @@ export const Hamburgermenu = () => {
                 <a href="http://"><div className="nav-cart-count">0</div></a>
               <Link to='/login' ><a href="http://"><li> <span><Icon.PersonFill className="align-top" size="24" /></span></li></a></Link> 
                 </ul>
-                </div>
-            </div>
-       
-    );
-};
+        </div>
+    </div>
+    </>
+  )
+}
