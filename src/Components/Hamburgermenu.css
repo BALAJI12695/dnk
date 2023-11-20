@@ -1,0 +1,118 @@
+
+/* Section 1 Navbar Starts  */
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    background: hsl(188, 100%, 37%, .3);   
+}
+.brandlogowhite{
+    margin-right: 20px;
+    width: 120px;
+    height: 40px;
+    background-image: url('../Assets/Brand-logo-white.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+}
+.brandlogoblack{
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a :hover{
+    color: black;
+}
+.nav-left{
+    margin-left: 8px;   
+}
+.nav-right{
+    margin-right: 20px;
+    padding-top: 15px;
+}
+.nav-left ul,.nav-right ul{
+    list-style-type: none;
+    display: inline-flex;
+    color: white;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+}
+.nav-left li,.nav-right li{
+    padding: 10px;
+    
+}
+.nav-cart-count{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+    margin-left: -18px;
+    border-radius : 25px;
+    font-size: 10px;
+    background-color: #ffffff;
+    color: black;
+}
+
+
+
+
+/* Add this CSS code to your existing stylesheet or Hamburgermenu.css */
+.hamburger-menu {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+/* Add/modify this CSS code in your existing stylesheet or Hamburgermenu.css */
+.hamburger-menu {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;
+    position: absolute;
+    top: 15px; /* Adjust this value based on your header height */
+    right: 20px; /* Adjust this value to position the hamburger menu on the right */
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Show the hamburger menu on smaller screens */
+    .nav-left,
+    .nav-right {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* Show the navigation links when the hamburger menu is active */
+    .navbar.active .nav-left,
+    .navbar.active .nav-right {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 95px; /* Adjust this value based on your header height */
+        right: 0;
+        width: 100%;
+        background: hsl(188, 100%, 37%, .3);
+    }
+}
+

@@ -14,9 +14,9 @@ export const Nav = () => {
     <div>
       <div className={`navbar ${menuOpen ? 'menu-open' : ''}`}>
         <div className="nav-left">
+        <Link to='/'><a href="http://"> <div className='brandlogo'> </div></a></Link>
           <span>
             <ul className={`nav-links ${menuOpen ? 'show' : ''}`}>
-              <Link to='/'><a href="http://"> <div className='brandlogo'> </div></a></Link>
               <Link to='/' onClick={() => setMenuOpen(false)}><li>EVERYTHING</li></Link>
               <Link to='/women' onClick={() => setMenuOpen(false)}><li>WOMEN</li></Link>
               <Link to='/men' onClick={() => setMenuOpen(false)}><li>MEN</li></Link>
@@ -44,3 +44,6 @@ export const Nav = () => {
     </div>
   );
 };
+
+
+

@@ -1,8 +1,7 @@
 /* Section 1 Navbar Starts  */
-
 .nav{
     width: 100%;
-    height: 90px;
+    height: 95px;
     background: hsl(188, 100%, 37%, .3);   
 }
 .brandlogo{
@@ -12,12 +11,8 @@
     background-image: url('../../Assets/Brand-logo-white.png');
     background-size: contain;
     background-repeat: no-repeat;
-    
-    
 }
-.brandlogoblack{
-    visibility: hidden;
-}
+
 a{
     text-decoration: none;
     color: #ffffff;
@@ -26,7 +21,10 @@ a :hover{
     color: black;
 }
 .nav-left{
-    margin-left: 8px;   
+    
+    margin-left: 40px; 
+    display: flex;  
+    /* padding: 15px; */
 }
 .nav-right{
     margin-right: 20px;
@@ -62,21 +60,27 @@ a :hover{
 /* Section 1 Navbar Ends */
 /* Add this media query for small screens */
 @media (max-width: 970px) {
+
+
+    .navbar{
+       
+        background-color: #ffffff;
+    }
     .nav-left ul, .nav-right ul {
       display: none;
     }
-  
+
     .nav-links.show {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       position: absolute;
       top: 90px;
-      right: 0;
+      right: 25px;
       width: 95%;
-      background-color: hsl(188, 100%, 37%, .3);
+      background-color: red;
       z-index: 1;
     }
-  
+ 
     .brandlogo{
     margin-right: 20px;
     width: 120px;
@@ -87,8 +91,8 @@ a :hover{
   }
 
     .nav-links.show li {
-      padding: 10px;
       text-align: left;
+      background-color: black;
     }
   
     .menu-toggle {
@@ -103,7 +107,7 @@ a :hover{
       display: block;
       width: 25px;
       height: 3px;
-      background-color: white;
+      background-color: black;
       margin: 5px 0;
       transition: 0.4s;
     }
@@ -120,4 +124,6 @@ a :hover{
       transform: rotate(45deg) translate(-5px, -6px);
     }
   }
+  
+
   

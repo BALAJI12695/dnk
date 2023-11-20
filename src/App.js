@@ -20,9 +20,9 @@ import PartnersSlider from './Components/Section2/Carousal/Caroline';
 import Kerosal from './Components/Section2/Kerosal/Kerosal';
 import Imagecarousel from './Components/Section2/ProductSlider/Imagecarousel';
 import { Button } from 'bootstrap';
-
-import { SegmentedNav } from 'react-bootstrap-icons';
 import { Nav } from './Components/Navbar/Nav';
+import { Hamburgermenu } from '../src/Components/Hamburgermenu';
+
 
 
 
@@ -30,7 +30,10 @@ function App() {
   return (
     
   <div className='App' >
+
+
   <Router>
+  <Nav />
     {/* <Navbar /> */}
     {/* <Section1 /> */}
     {/* < Cat />
@@ -39,7 +42,9 @@ function App() {
     {/* <Imagecarousel />
     < Cards /> */}
     {/* <Caroline /> */}
-  <Nav />
+ {/* <Hamburgermenu /> */}
+    
+  
    
     
     <Routes>
