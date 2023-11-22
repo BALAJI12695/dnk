@@ -5,6 +5,7 @@
 .navbar-brand{
     
     margin-right: 20px;
+    margin-left: 15px;
     width: 120px;
     height: 40px;
     background-image: url(../Assets/Brand-logo-white.png);
@@ -12,10 +13,38 @@
     background-repeat: no-repeat;
 }
 
-.navbar-nav .nav-link.active{
-    color: #ffff;
+.nav-link{
+    /* color: #ffff; */
+    padding: 12px;
+    font-weight: 900;
 }
-/* .navbar-nav{
-    padding: 0;
+.nav-cart{
+    display: none;
+    margin-right: 13px;
+}
 
-} */
+button{
+    width: 60px;
+}
+
+
+@media (max-width: 990px) {
+    .nav-cart{
+        display: block;
+    }
+    .navbar{
+        background-color: #ffff;  
+    }
+    .navbar-brand{
+        
+        margin-right: 20px;
+        margin-left: 15px;
+        width: 120px;
+        height: 40px;
+        background-image: url(../Assets/Brand-logo-black.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    
+  }
