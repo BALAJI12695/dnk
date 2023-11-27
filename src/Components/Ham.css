@@ -14,7 +14,7 @@
 }
 
 .nav-link{
-    /* color: #ffff; */
+    color: #ffff;
     padding: 12px;
     font-weight: 900;
 }
@@ -26,6 +26,10 @@
 button{
     width: 60px;
 }
+#person{
+    display: none;
+}
+
 
 
 @media (max-width: 990px) {
@@ -34,6 +38,7 @@ button{
     }
     .navbar{
         background-color: #ffff;  
+        
     }
     .navbar-brand{
         
@@ -45,6 +50,28 @@ button{
         background-size: contain;
         background-repeat: no-repeat;
     }
+  
+
+    #person{
+        display: block;
+    }
     
+    #hamhide{
+    display: none;
+
+    }
+
+    #menu2,#person{
+        background-color: #ffff;
+        border: solid 0.1px black;
+       padding: 20px;
+    }
+    li#menu2 ,li#person {
+         background-color: #e2e2e2
+    }
+    #black{
+        color: black;
+
+    }
     
   }

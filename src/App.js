@@ -35,11 +35,11 @@ function App() {
 
 
   <Router>
-    <Ham />
+    {/* <Ham /> */}
   {/* <Hamburgermenu /> */}
   {/* <Nav /> */}
     {/* <Navbar /> */}
-    {/* <Section1 /> */}
+    <Section1 />
     {/* < Cat />
     < Car />
     <Kerosal /> */}
@@ -47,9 +47,6 @@ function App() {
     < Cards /> */}
     {/* <Caroline /> */}
  {/* <FeaturedProduct /> */}
-    
-  
-   
     
     <Routes>
     <Route path='/' element={<Shop />} />
