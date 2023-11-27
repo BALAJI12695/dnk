@@ -9,31 +9,48 @@ import { Link } from 'react-router-dom';
 
 function Section1(){
   return (
-    <div className='home-img'>
-    <div className="navbar">
-        <div className="nav-left">
-        <Link to='/'><a href="http://"> <img src={brandlogo} alt="Brand logo" /></a></Link>
-            <span>
-                <ul >
-                <Link to='/'><a href="http://"><li>EVERYTHING</li></a></Link>
-                <Link to='/women'><a href="http://"><li>WOMEN</li></a></Link>
-                <Link to='/men'><a href="http://"><li>MEN</li></a></Link>
-                <Link to='/accessories'> <a href="http://"><li>ACCESSORIES</li></a></Link>
-                </ul>
-            </span>
+    <div className='home-img'  >
+     <nav class="navbar navbar-expand-lg bg ">
+        <div class="container-fluid">
+        <Link to='/'><div class="navbar-brand" href="#"></div></Link>
+        <div class=" d-flex ">
+        <div className='nav-cart'>
+        <ul class="navbar-nav flex-row " >
+        <li class="nav-item active " ><Link id='black' class="nav-link" to='/cart'> <div>$00.00</div></Link></li>
+        <li class="nav-item active "><Link id='black' class="nav-link" to='/wishlist' ><Icon.SuitHeartFill  size="20" /></Link></li>
+        <li class="nav-item active "><Link id='black' class="nav-link" to='/cart' ><Icon.BagFill  size="20" /></Link></li>
+        <li class="nav-item active "><div className="nav-cart-count">0</div></li> 
+        </ul>
         </div>
-        <div className="nav-right">
-            <ul >
-              <Link to='/about' ><a href="http://"><li>ABOUT</li></a></Link> 
-              <Link to='/contact' ><a href="http://"><li><p>CONTACT US</p></li></a></Link>
-                <a href="http://"> <li>$00.00</li></a>
-              <Link to='/wishlist' ><a href="http://"><li> <span><Icon.SuitHeartFill className="align-top" size="20" /></span></li></a></Link>
-              <Link to='/cart' ><a href="http://"><li> <span><Icon.BagFill className="align-top" size="20" /></span></li></a></Link>
-                <a href="http://"><div className="nav-cart-count">0</div></a>
-              <Link to='/login' ><a href="http://"><li> <span><Icon.PersonFill className="align-top" size="24" /></span></li></a></Link> 
-            </ul>
+        <div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
         </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-4 mb-lg-0  ">
+        <li class="nav-item active" id='person' ><Link class="nav-link" to='/login' ><Icon.PersonFill  size="25" /></Link></li> 
+        <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/'>EVERYTHING</Link></li>
+        <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/women'>WOMEN</Link></li>
+        <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/men'>MEN</Link></li>  
+        <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/accessories'>ACCESSORIES</Link></li>        
+        </ul>
+      
+      <ul class="navbar-nav mt-3 mb-lg-0" >
+        <span class="navbar-nav mb-4 mb-lg-0">
+        <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/about' >ABOUT</Link></li>
+        <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/contact' ><p>CONTACT US</p></Link></li>
+        <li class="nav-item " id='hamhide' ><Link class="nav-link" to='/cart'> <div>$00.00</div> </Link> </li>
+        <li class="nav-item " id='hamhide' ><Link class="nav-link" to='/wishlist' ><Icon.SuitHeartFill  size="20" /></Link></li>
+        <li class="nav-item " id='hamhide' ><Link class="nav-link" to='/cart' ><Icon.BagFill  size="20" /></Link></li>
+        <li class="nav-item " id='hamhide' ><div className="nav-cart-count">0</div></li>
+        <li class="nav-item " id='hamhide' ><Link class="nav-link" to='/login' ><Icon.PersonFill  size="25" /></Link></li> 
+        </span>
+      </ul>
+      </div>
     </div>
+</nav>
     <div className="banner">
       <h1>Raining Offers For </h1>
       <h1>Hot Summer!</h1>
