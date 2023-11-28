@@ -3,7 +3,7 @@
 
 .navbar{
     background-color: hsl(188, 100%, 37%, .3);  
-   padding: 25px 25px 25px 0px;
+    padding: 25px 25px 25px 0px;
 }
 .navbar-brand{
     
@@ -118,7 +118,7 @@ width: 500px;
     color: #ffffff;
     border: 1.4px solid #ffffff;
     width: 125px;
-    height: 42px;
+    height: 45px;
 }
 .button2:hover{
     background: black;
@@ -128,7 +128,7 @@ width: 500px;
 /* Section 2 Main Page Ends */
 
 @media (max-width: 990px) {
-
+/* Navbar starts */
     .nav-cart{
         display: block;
     }
@@ -152,9 +152,12 @@ width: 500px;
         padding: 20px;
     }
     li#menu2 ,li#person {
-         background-color: red
-
+         background-color:  #e2e2e2;
+        
+         
+      
     }
+   
     #black{
         color: black;
 
@@ -187,9 +190,12 @@ width: 500px;
         padding: 20px;
     }
     li#menu2 ,li#person {
-         background-color: red
+         background-color:  #e2e2e2;
+       
 
     }
+
+    
     #black{
         color: black;
 
@@ -198,8 +204,9 @@ width: 500px;
         color: #ffffff;
         background-color: black;
     }
-
-    /* banner section */
+        /* Navbar ends */
+        
+        /* banner section */
 
     
    
@@ -207,6 +214,8 @@ width: 500px;
   }
 
   @media (max-width: 600px) {
+
+    /* banner section starts*/
 
     .banner {
         text-align: center;

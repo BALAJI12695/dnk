@@ -1,46 +1,30 @@
+
 /* Section 1 Navbar Starts  */
 
-/* .navbar{
-    width: 100%;
-    height: 90px;
-    background-color: hsl(188, 100%, 37%, .3);   
-    
+.navbar{
+    background-color: hsl(188, 100%, 37%, .3);  
+    padding: 25px 25px 25px 0px;
 }
-.brandlogo{
+.navbar-brand{
+    
     margin-right: 20px;
+    margin-left: 25px;
     width: 120px;
     height: 40px;
-    background-image: url('../../Assets/Brand-logo-white.png');
+    background-image: url(../../Assets/Brand-logo-white.png);
     background-size: contain;
     background-repeat: no-repeat;
-    
 }
 
-a{
-    text-decoration: none;
-    color: #ffffff;
+
+.nav-link{
+    color: #ffff;
+    padding: 12px;
+    font-weight: 900;
 }
-a :hover{
-    color: black;
-}
-.nav-left{
-    margin-left: 8px;   
-}
-.nav-right{
-    margin-right: 20px;
-    padding-top: 15px;
-}
-.nav-left ul,.nav-right ul{
-    list-style-type: none;
-    display: inline-flex;
-    color: white;
-    list-style: none;
-    font-family: 'Lato', sans-serif;
-    font-size: small;
-}
-.nav-left li,.nav-right li{
-    padding: 10px;
-    
+.nav-cart{
+    display: none;
+    margin-right: 13px;
 }
 .nav-cart-count{
     width: 18px;
@@ -48,36 +32,105 @@ a :hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -3px;
+    margin-top: 5px;
     margin-left: -18px;
     border-radius : 25px;
     font-size: 10px;
     background-color: #ffffff;
     color: black;
-} */
+}
+.navbar-toggler{
+    background-color: black;
+}
+.navbar-toggler-icon{
+    background-color: #e2e2e2;
+}
 
+button{
+    width: 60px;
+}
+#person{
+    display: none;
+}
 /* Section 1 Navbar Ends */
 
-/* Media Query MD */
-
-/* @media (max-width: 970px) {
-    .navbar{
+@media (max-width: 990px) {
+    /* Navbar starts */
+        .nav-cart{
+            display: block;
+        }
+        .navbar{
+            background-color: #ffff;  
+            
+        }
+    
+        #person{
+            display: block;
+        }
         
-        background-color:#ffffff;   
+        #hamhide{
+        display: none;
+    
+        }
+    
+        #menu2,#person{
+            background-color: #ffff;
+            border: solid 0.1px black;
+            padding: 20px;
+        }
+        li#menu2 ,li#person {
+             background-color:  #e2e2e2;
+            
+             
+          
+        }
+       
+        #black{
+            color: black;
+    
+        }
+       
+        .navbar-brand{
+            
+            margin-right: 20px;
+            margin-left: 15px;
+            width: 120px;
+            height: 40px;
+            background-image: url(../../Assets/Brand-logo-black.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+      
+    
+        #person{
+            display: block;
+        }
+        
+        #hamhide{
+        display: none;
+    
+        }
+    
+        #menu2,#person{
+            background-color: #ffffff;
+            border: solid 0.1px black;
+            padding: 20px;
+        }
+        li#menu2 ,li#person {
+             background-color:  #e2e2e2;
+           
+    
+        }
+    
+        
+        #black{
+            color: black;
+    
+        }
+        .nav-cart-count{
+            color: #ffffff;
+            background-color: black;
+        }
+
     }
-
-    .brandlogo{
-        margin-right: 20px;
-        width: 120px;
-        height: 40px;
-        background-image: url('../../Assets/Brand-logo-black.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-     
-    }
-} */
-
-
-
-
-
+            /* Navbar ends */

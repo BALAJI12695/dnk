@@ -14,15 +14,11 @@ import { Section2 } from './Components/Section2/Section2';
 import Cat from './Components/Section2/Card2/Cat';
 import Car from './Components/Section2/Card3/Car';
 import { Cards } from './Components/Section2/Card1/Cards';
-import Caroline from './Components/Section2/Carousal/Caroline';
 import PartnersSlider from './Components/Section2/Carousal/Caroline';
 import Kerosal from './Components/Section2/Kerosal/Kerosal';
 import Imagecarousel from './Components/Section2/ProductSlider/Imagecarousel';
 import { Button } from 'bootstrap';
-import { Nav } from './Components/Navbar/Nav';
-import { Hamburgermenu } from './Components/Hamburgermenu';
 import { FeaturedProduct } from './Components/Section3/FeaturedProduct';
-import { Ham } from './Components/Ham';
 import Section1 from './Components/Section1/Section1';
 
 
@@ -35,17 +31,13 @@ function App() {
 
 
   <Router>
-    {/* <Ham /> */}
-  {/* <Hamburgermenu /> */}
-  {/* <Nav /> */}
     {/* <Navbar /> */}
     <Section1 />
     {/* < Cat />
     < Car />
     <Kerosal /> */}
-    {/* <Imagecarousel />
-    < Cards /> */}
-    {/* <Caroline /> */}
+    <Imagecarousel />
+    < Cards />
  {/* <FeaturedProduct /> */}
     
     <Routes>
