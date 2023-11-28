@@ -11,7 +11,6 @@ function Section1(){
   return (
     <div className='home-img'  >
      <nav class="navbar navbar-expand-lg bg ">
-        <div class="container-fluid">
         <Link to='/'><div class="navbar-brand" href="#"></div></Link>
         <div class=" d-flex ">
         <div className='nav-cart'>
@@ -37,10 +36,10 @@ function Section1(){
         <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/accessories'>ACCESSORIES</Link></li>        
         </ul>
       
-      <ul class="navbar-nav mt-3 mb-lg-0" >
+        <ul class="navbar-nav mb-lg-0" >
         <span class="navbar-nav mb-4 mb-lg-0">
         <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/about' >ABOUT</Link></li>
-        <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/contact' ><p>CONTACT US</p></Link></li>
+        <li class="nav-item active" id='menu2' ><Link class="nav-link" to='/contact' >CONTACT US</Link></li>
         <li class="nav-item " id='hamhide' ><Link class="nav-link" to='/cart'> <div>$00.00</div> </Link> </li>
         <li class="nav-item " id='hamhide' ><Link class="nav-link" to='/wishlist' ><Icon.SuitHeartFill  size="20" /></Link></li>
         <li class="nav-item " id='hamhide' ><Link class="nav-link" to='/cart' ><Icon.BagFill  size="20" /></Link></li>
@@ -49,18 +48,20 @@ function Section1(){
         </span>
       </ul>
       </div>
-    </div>
 </nav>
-    <div className="banner">
-      <h1>Raining Offers For </h1>
-      <h1>Hot Summer!</h1>
-      <p>25% Off On All Products</p>
-    <div className="buttons">
+    <div className="container">
+      <div className='banner'>
+      <div className='rain'><h1>Raining Offers For  Hot Summer!</h1></div>
+      <div className='offer'><p>25% Off On All Products</p></div>
+      <div className="buttons">
       <button className="button1 " >SHOP NOW</button >
       <button className="button2" >FIND MORE</button>
+      </div>
     </div>
     </div>
-   </div>
+    </div>
+   
+   
    
   );
 }

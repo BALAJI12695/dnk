@@ -1,7 +1,6 @@
 import './App.css';
 // import './../src/Components/Head/Head'
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
-import Section1 from './Components/Section1/Section1';
 import { Navbar } from './Components/Navbar/Navbar';
 import { Product } from './Components/Pages/Product';
 import {ShopCategory} from './Components/Pages/ShopCategory';
@@ -24,6 +23,7 @@ import { Nav } from './Components/Navbar/Nav';
 import { Hamburgermenu } from './Components/Hamburgermenu';
 import { FeaturedProduct } from './Components/Section3/FeaturedProduct';
 import { Ham } from './Components/Ham';
+import Section1 from './Components/Section1/Section1';
 
 
 

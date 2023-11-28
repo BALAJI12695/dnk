@@ -3,18 +3,19 @@
 
 .navbar{
     background-color: hsl(188, 100%, 37%, .3);  
-  
+   padding: 25px 25px 25px 0px;
 }
 .navbar-brand{
     
     margin-right: 20px;
-    margin-left: 15px;
+    margin-left: 25px;
     width: 120px;
     height: 40px;
     background-image: url(../../Assets/Brand-logo-white.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 
 .nav-link{
     color: #ffff;
@@ -55,28 +56,30 @@ button{
 
 /* Section 2 Main Page Starts */
 
+.container{
+    padding-top: 150px;
+}
 .home-img{
     width: 100%;
-    height: 685px;
-    background-color: black;
+    height: 100vh; 
     background-image: url(../../Assets/girl-img-home.avif);
-    background-size: 125%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 /* Banner Starts  */
 
 .banner{
-    width: 650px;
     height: 350px;
-    /* background-color: hsl(188, 100%, 37%, .3); */
     opacity: 1px;
-    margin: 100px;
     font-family:'Lato', sans-serif; ;
-    padding: 25px;
     color: #ffffff;
+}
+.rain {
+width: 500px;
 }
 .banner h1{
     font-size: 56px;
@@ -125,6 +128,7 @@ button{
 /* Section 2 Main Page Ends */
 
 @media (max-width: 990px) {
+
     .nav-cart{
         display: block;
     }
@@ -132,6 +136,30 @@ button{
         background-color: #ffff;  
         
     }
+
+    #person{
+        display: block;
+    }
+    
+    #hamhide{
+    display: none;
+
+    }
+
+    #menu2,#person{
+        background-color: #ffff;
+        border: solid 0.1px black;
+        padding: 20px;
+    }
+    li#menu2 ,li#person {
+         background-color: red
+
+    }
+    #black{
+        color: black;
+
+    }
+   
     .navbar-brand{
         
         margin-right: 20px;
@@ -154,12 +182,13 @@ button{
     }
 
     #menu2,#person{
-        background-color: #ffff;
+        background-color: #ffffff;
         border: solid 0.1px black;
-       padding: 20px;
+        padding: 20px;
     }
     li#menu2 ,li#person {
-         background-color: #e2e2e2
+         background-color: red
+
     }
     #black{
         color: black;
@@ -169,15 +198,34 @@ button{
         color: #ffffff;
         background-color: black;
     }
+
+    /* banner section */
+
+    
    
     
   }
 
-  @media (min-width: 600px) {
+  @media (max-width: 600px) {
 
-    .navbar{
-        width: 100%;
+    .banner {
+        text-align: center;
     }
 
-
+    .rain{
+        width: 100%;        
+    }
+    .rain h1{
+    font-size: 25px;
+    }
+    .button1{
+        width: 90%;
+    }
+    .button2{
+        margin-top: 10px;
+        width: 90%;
+        margin-left: 0;
+    }
+   
+    
   }

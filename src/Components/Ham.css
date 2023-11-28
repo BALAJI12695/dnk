@@ -5,12 +5,15 @@
 .navbar-brand{
     
     margin-right: 20px;
-    margin-left: 15px;
+    margin-left: 25px;
     width: 120px;
     height: 40px;
     background-image: url(../Assets/Brand-logo-white.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+.navbar-nav{
+    /* margin-right: 20px; */
 }
 
 .nav-link{
@@ -64,11 +67,13 @@ button{
     #menu2,#person{
         background-color: #ffff;
         border: solid 0.1px black;
-       padding: 20px;
+        padding: 20px;
     }
-    li#menu2 ,li#person {
+    li#menu2,li#person {
          background-color: #e2e2e2
     }
+
+    
     #black{
         color: black;
 
