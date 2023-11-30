@@ -1,5 +1,4 @@
 import './App.css';
-// import './../src/Components/Head/Head'
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import { Navbar } from './Components/Navbar/Navbar';
 import { Product } from './Components/Pages/Product';
@@ -10,17 +9,11 @@ import { Shop } from './Components/Pages/Shop';
 import { About } from './Components/Pages/About';
 import { Contact } from './Components/Pages/Contact';
 import { WishList } from './Components/Pages/WishList';
-import { Section2 } from './Components/Section2/Section2';
-import Cat from './Components/Section2/Card2/Cat';
-import Car from './Components/Section2/Card3/Car';
 import { Cards } from './Components/Section2/Card1/Cards';
-import PartnersSlider from './Components/Section2/Carousal/Caroline';
-import Kerosal from './Components/Section2/Kerosal/Kerosal';
 import Imagecarousel from './Components/Section2/ProductSlider/Imagecarousel';
-import { Button } from 'bootstrap';
-import { FeaturedProduct } from './Components/Section3/FeaturedProduct';
+import { Section2 } from './Components/Section2/Section2';
 import Section1 from './Components/Section1/Section1';
-
+import { Nav } from './Components/Nav';
 
 
 
@@ -31,14 +24,13 @@ function App() {
 
 
   <Router>
+    
+    {/* <Nav /> */}
     {/* <Navbar /> */}
     <Section1 />
-    {/* < Cat />
-    < Car />
-    <Kerosal /> */}
-    <Imagecarousel />
-    < Cards />
- {/* <FeaturedProduct /> */}
+    {/* <Imagecarousel />
+    < Cards /> */}
+
     
     <Routes>
     <Route path='/' element={<Shop />} />

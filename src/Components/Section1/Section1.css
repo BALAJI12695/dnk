@@ -21,6 +21,7 @@
     color: #ffff;
     padding: 12px;
     font-weight: 900;
+    font-family:'Lato', sans-serif;
 }
 .nav-cart{
     display: none;
@@ -46,9 +47,6 @@
     background-color: #e2e2e2;
 }
 
-button{
-    width: 60px;
-}
 #person{
     display: none;
 }
@@ -56,12 +54,13 @@ button{
 
 /* Section 2 Main Page Starts */
 
-.container{
-    padding-top: 150px;
+.box{
+    padding-top: 120px;
+    margin-left: 120px;
 }
 .home-img{
     width: 100%;
-    height: 100vh; 
+    height: 105vh; 
     background-image: url(../../Assets/girl-img-home.avif);
     background-size: cover;
     background-position: center;
@@ -75,7 +74,7 @@ button{
 .banner{
     height: 350px;
     opacity: 1px;
-    font-family:'Lato', sans-serif; ;
+    font-family:'Lato', sans-serif; 
     color: #ffffff;
 }
 .rain {
@@ -152,9 +151,7 @@ width: 500px;
         padding: 20px;
     }
     li#menu2 ,li#person {
-         background-color:  #e2e2e2;
-        
-         
+         background-color:  #e2e2e2;  
       
     }
    
@@ -192,10 +189,8 @@ width: 500px;
     li#menu2 ,li#person {
          background-color:  #e2e2e2;
        
-
     }
 
-    
     #black{
         color: black;
 
@@ -208,9 +203,10 @@ width: 500px;
         
         /* banner section */
 
-    
+    .box{
+        margin-left: 0px;
+    }
    
-    
   }
 
   @media (max-width: 600px) {
@@ -237,4 +233,38 @@ width: 500px;
     }
    
     
+  }
+
+  @media (max-width: 320px){
+
+   .navbar{
+   flex-wrap: nowrap;
+   }
+   .navbar a{
+    width: fit-content;
+    font-size: small;
+    gap: 0px;
+    
+   }
+   .navbar-brand{
+    width: 60px;
+    margin-top: 20px;
+   }
+
+   span.navbar-toggler-icon{
+        margin-top: -15px;
+        margin-left: -6px;
+        width: 16px;
+        height: 15px;
+    }
+    button.navbar-toggler{
+        margin-top: 10px;
+        height: 22px;
+        width: 30px;
+    }
+    #navbarText{
+        background-color: aqua;
+    
+    }
+
   }

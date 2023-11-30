@@ -3,7 +3,9 @@
     max-width: 250px;
 
     height: 70px;
-    background-color: black;
     margin: 2px;
-    color: white;
+    display: grid;
+    place-items: center;
+    justify-content: center;
 }
+
