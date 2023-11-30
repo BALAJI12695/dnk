@@ -8,8 +8,8 @@ export const Cards = () => {
   return (
     <div className="cards" >
 
-      <div className="container">
-        <div className="row">
+      <div className=" container">
+        <div className=" row">
 
           <div className="col-xl-4 ">
             <div className="card women rounded-0">

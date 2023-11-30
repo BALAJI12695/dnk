@@ -124,7 +124,9 @@ width: 500px;
     border-color:hsl(188, 100%, 37%, .3) ;
 }
 /* Buttons  Ends*/
-/* Section 2 Main Page Ends */
+/* Section 1 Main Page Ends */
+
+/* Media Query Large Size */
 
 @media (max-width: 990px) {
 /* Navbar starts */
@@ -206,6 +208,15 @@ width: 500px;
     .box{
         margin-left: 0px;
     }
+
+    .frame,.buttonshop{
+        text-align: center;
+        width: 95%;
+       }
+    
+       .women,.men,.heels{
+       margin: 10px;
+       }
    
   }
 
@@ -231,24 +242,135 @@ width: 500px;
         width: 90%;
         margin-left: 0;
     }
-   
+
+    /* Setion 2  */
+    .frame,.buttonshop{
+        text-align: center;
+        width: 95%;
+       }
+    
+       .women,.men,.heels{
+       margin: 10px;
+       }
     
   }
 
+/* Media Query  Tablet */
+
+  @media (max-width: 768px) {
+    .box{
+        margin-top: 20px;
+        padding-top: 0px;
+      
+    }
+    .banner {
+        text-align: center;
+    }
+
+    .rain{
+        width: 100%;        
+    }
+    .rain h1{
+    font-size: 25px;
+    }
+    .button1{
+        width: 90%;
+    }
+    .button2{
+        margin-top: 10px;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    /* Section 2 */
+
+    .frame,.buttonshop{
+        text-align: center;
+        width: 95%;
+       }
+    
+       .women,.men,.heels{
+       margin: 10px;
+       }
+   
+  }
+
+/* Media Query  Medium Size */
+
+  @media (max-width: 475px){
+
+    .box{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .navbar a{
+        width: fit-content;
+        font-size: smaller;
+        
+       
+       
+        
+       }
+       .navbar-brand{
+        width: 60px;
+        margin-top: 20px;
+        
+        
+       }
+
+       span.navbar-toggler-icon{
+        margin-top: -15px;
+        margin-left: -6px;
+        width: 16px;
+        height: 15px;
+        
+    }
+    button.navbar-toggler{
+        margin-top: 10px;
+        height: 22px;
+        width: 30px;
+      
+        
+    }
+
+        /* Section 2 */
+
+    .frame,.buttonshop{
+        text-align: center;
+        width: 95%;
+       }
+    
+       .women,.men,.heels{
+       margin: 10px;
+       }
+    
+
+  }
+
+  /* Media Query Small Size */
+
   @media (max-width: 320px){
 
-   .navbar{
-   flex-wrap: nowrap;
+   .box{
+    margin-top: 0%;
+    padding-top: 0%;
+    
+
+   
    }
    .navbar a{
     width: fit-content;
-    font-size: small;
-    gap: 0px;
+    font-size: smaller;
+    
+   
+   
     
    }
    .navbar-brand{
     width: 60px;
     margin-top: 20px;
+    
+    
    }
 
    span.navbar-toggler-icon{
@@ -256,15 +378,25 @@ width: 500px;
         margin-left: -6px;
         width: 16px;
         height: 15px;
+        
     }
     button.navbar-toggler{
         margin-top: 10px;
         height: 22px;
         width: 30px;
+      
+        
     }
-    #navbarText{
-        background-color: aqua;
-    
-    }
+
+    /* Section 2 */
+
+   .frame,.buttonshop{
+    text-align: center;
+    width: 95%;
+   }
+
+   .women,.men,.heels{
+   margin: 10px;
+   }
 
   }

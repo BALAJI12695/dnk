@@ -28,8 +28,8 @@ function App() {
     {/* <Nav /> */}
     {/* <Navbar /> */}
     <Section1 />
-    {/* <Imagecarousel />
-    < Cards /> */}
+    <Imagecarousel />
+    < Cards />
 
     
     <Routes>
