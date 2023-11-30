@@ -13,7 +13,7 @@ import { Cards } from './Components/Section2/Card1/Cards';
 import Imagecarousel from './Components/Section2/ProductSlider/Imagecarousel';
 import { Section2 } from './Components/Section2/Section2';
 import Section1 from './Components/Section1/Section1';
-import { Nav } from './Components/Nav';
+
 
 
 
@@ -25,11 +25,13 @@ function App() {
 
   <Router>
     
-    {/* <Nav /> */}
-    {/* <Navbar /> */}
-    <Section1 />
-    <Imagecarousel />
-    < Cards />
+
+    <Navbar />
+    {/* <Section1 /> */}
+    {/* Section 2 */}
+    {/* <Imagecarousel />
+    < Cards /> */}
+    {/* Section 2 */}
 
     
     <Routes>
